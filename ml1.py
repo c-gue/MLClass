@@ -48,7 +48,12 @@ from sklearn.neighbors import KNeighborsClassifier
 
 knn = KNeighborsClassifier()
 
+# load the training data into the model using the fit model
+
 knn.fit(X=data_train, y=target_train)
+
+# Return an array containing the predicted class of each test 
+# creates an array of digits
 
 predicted = knn.predict(X=data_test)
 expected = target_test
