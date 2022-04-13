@@ -4,13 +4,13 @@ digits = load_digits()
 
 print(digits.DESCR)
 
-print(digits.data[150])
-print(digits.target[150])
+#print(digits.data[150])
+#print(digits.target[150])
 
-print(digits.data[5])
-print(digits.target[5])
+#print(digits.data[5])
+#print(digits.target[5])
 
-print(digits.data[:2])
+#print(digits.data[:2])
 
 print(digits.data.shape)
 
